@@ -1,0 +1,51 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: #D5F5E3;
+}
+
+.imagen img{
+    max-width: 30%;
+    max-height: 30%;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    border-radius: 15px;
+}
+
+.autenticación {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.email {
+    text-align: center;
+}
+
+.pasword {
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+      left: 40%;
+      top: 110%;
+}
+
+.links {
+    font-size: 75%;
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+}
+.warnings {
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: darkgreen;
+    padding-top: 20px;
+}
