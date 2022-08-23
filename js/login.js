@@ -22,7 +22,7 @@ form.addEventListener("submit", e=>{
    if(contraseña.value.length > 0 &&
       
       regexEmail.test(email.value)) {
-        window.open("/workspace-inicial/cover.html", "_self")
+        window.open("cover.html", "_self")
       }
 })
 
